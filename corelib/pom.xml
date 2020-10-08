@@ -9,7 +9,7 @@
 	<groupId>cc.eguid.cv.corelib</groupId>
 	<artifactId>corelib</artifactId>
 	<name>corelib</name>
-	<version>1.0</version>
+	<version>2019.4.16</version>
 	<packaging>pom</packaging>
 	<description>corelib</description>
 

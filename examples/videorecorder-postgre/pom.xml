@@ -5,7 +5,7 @@
   <parent>
     <groupId>cc.eguid.cv</groupId>
     <artifactId>examples</artifactId>
-    <version>1.1</version>
+    <version>2019.4.16</version>
   </parent>
   <groupId>cc.eguid.cv.examples</groupId>
   <artifactId>videorecorder-postgre</artifactId>

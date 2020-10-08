@@ -5,14 +5,14 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>cc.eguid.cv.easyCV</groupId>
+		<groupId>cc.eguid.cv.corelib</groupId>
 		<artifactId>corelib</artifactId>
-		<version>1.0</version>
+		<version>2019.4.16</version>
 	</parent>
-	<groupId>cc.eguid.cv.easyCV.corelib</groupId>
+	<groupId>cc.eguid.cv.corelib</groupId>
 	<artifactId>videoRecorder</artifactId>
-	<version>2019.3.25</version>
 	<name>videoRecorder</name>
+	<version>2019.4.16</version>
 	<url>https://blog.eguid.cc</url>
 	<description>
 	2018年10月17日

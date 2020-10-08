@@ -7,11 +7,11 @@
 	<parent>
 		<groupId>cc.eguid.cv</groupId>
 		<artifactId>examples</artifactId>
-		<version>1.1</version>
+		<version>2019.4.16</version>
 	</parent>
 	<groupId>cc.eguid.cv.web.examples</groupId>
 	<artifactId>videoimageshot-web</artifactId>
-	<version>1.0</version>
+	<version>2019.4.16</version>
 	<name>videoimageshot-web</name>
 	<url>http://maven.apache.org</url>
 	<properties>
