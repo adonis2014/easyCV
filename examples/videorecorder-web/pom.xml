@@ -11,34 +11,20 @@
   <artifactId>videorecorder-web</artifactId>
   <name>videorecorder-web</name>
   <url>http://maven.apache.org</url>
-  
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
+
   <dependencies>
     <dependency>
 	    <groupId>cc.eguid.cv.corelib</groupId>
 		<artifactId>videoRecorder</artifactId>
     </dependency>
   </dependencies>
-  
-  
+
+
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
-				<!-- Package as an executable jar -->
-			</plugin>
-		</plugins>
 	</build>
 	<description>2018年10月18日
 </description>

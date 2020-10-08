@@ -8,7 +8,7 @@
 	<packaging>pom</packaging>
 	<name>easyCV</name>
 	<description>easyCV</description>
-	
+
 	<modules>
 		<module>corelib</module>
 		<module>examples</module>
@@ -125,7 +125,7 @@
 			    <artifactId>ffmpeg</artifactId>
 			    <version>${ffmpeg.version}-${javacpp.version}</version>
 			</dependency>
-			<!-- opencv 
+			<!-- opencv
 			<dependency>
 				<groupId>org.bytedeco.javacpp-presets</groupId>
 				<artifactId>opencv-platform</artifactId>
@@ -133,10 +133,10 @@
 			</dependency>
 			-->
 		</dependencies>
-		
+
 	</dependencyManagement>
 
-	<build>	
+	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -151,20 +151,7 @@
 						<!-- 解决中文乱码无法编译问题 -->
 						<encoding>UTF8</encoding>
 						<fork>true</fork>
-						<executable>${JAVA8_HOME}/bin/javac</executable>
 					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-javadoc-plugin</artifactId>
-					<version>2.10.4</version>
-					<configuration>
-						<additionalparam>-Xdoclint:none</additionalparam>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-maven-plugin</artifactId>
 				</plugin>
 			</plugins>
 		</pluginManagement>

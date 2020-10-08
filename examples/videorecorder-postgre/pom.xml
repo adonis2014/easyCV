@@ -22,22 +22,8 @@
 		<artifactId>videoRecorder</artifactId>
     </dependency>
   </dependencies>
-   
+
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
-				<!-- Package as an executable jar -->
-			</plugin>
-		</plugins>
 	</build>
-	
+
 </project>
